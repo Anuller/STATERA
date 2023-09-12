@@ -46,6 +46,7 @@ public class enemy : MonoBehaviour
 
         monster.SetBool("IsDead", true);
         // Animaçao de morte
+        Destroy(gameObject);
 
         this.enabled = false;
         GetComponent<Collider2D>().enabled = false;
@@ -69,6 +70,14 @@ public class enemy : MonoBehaviour
         //{
             //Flip(filme);
         //}
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("Player") == true)
+        {
+            rigidbody2.velocity = Vector3.zero;
+        }
     }
 
 }
