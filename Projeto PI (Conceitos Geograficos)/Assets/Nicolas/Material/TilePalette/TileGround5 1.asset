@@ -10,11 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Tileset_100
+  m_Name: TileGround5 1
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 5459538695126052423, guid: 1b39c0fe73f0433468e25eb21cfde7c2,
-    type: 3}
-  m_Color: {r: 0.7372549, g: 0.40392157, b: 0.827451, a: 1}
+  m_Sprite: {fileID: -1606505783, guid: 29e21165cb3ae334d969d4be634eaa9e, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
     e01: 0
