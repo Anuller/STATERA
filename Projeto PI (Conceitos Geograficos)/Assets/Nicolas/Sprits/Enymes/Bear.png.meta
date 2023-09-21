@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 12
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -109,9 +109,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 315
-        width: 96
-        height: 15
+        y: 312
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -129,10 +129,10 @@ TextureImporter:
       name: Bear_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 291
-        width: 96
-        height: 15
+        x: 24
+        y: 312
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,10 +150,10 @@ TextureImporter:
       name: Bear_2
       rect:
         serializedVersion: 2
-        x: 5
-        y: 265
-        width: 14
-        height: 20
+        x: 48
+        y: 312
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,10 +171,10 @@ TextureImporter:
       name: Bear_3
       rect:
         serializedVersion: 2
-        x: 29
-        y: 265
-        width: 14
-        height: 21
+        x: 72
+        y: 312
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,10 +192,10 @@ TextureImporter:
       name: Bear_4
       rect:
         serializedVersion: 2
-        x: 53
-        y: 265
-        width: 14
-        height: 20
+        x: 0
+        y: 288
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,10 +213,10 @@ TextureImporter:
       name: Bear_5
       rect:
         serializedVersion: 2
-        x: 77
-        y: 265
-        width: 14
-        height: 20
+        x: 24
+        y: 288
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,10 +234,10 @@ TextureImporter:
       name: Bear_6
       rect:
         serializedVersion: 2
-        x: 5
-        y: 241
-        width: 14
-        height: 21
+        x: 48
+        y: 288
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,10 +255,10 @@ TextureImporter:
       name: Bear_7
       rect:
         serializedVersion: 2
-        x: 29
-        y: 241
-        width: 14
-        height: 20
+        x: 72
+        y: 288
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -276,10 +276,10 @@ TextureImporter:
       name: Bear_8
       rect:
         serializedVersion: 2
-        x: 53
-        y: 241
-        width: 14
-        height: 20
+        x: 0
+        y: 264
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -297,10 +297,10 @@ TextureImporter:
       name: Bear_9
       rect:
         serializedVersion: 2
-        x: 77
-        y: 241
-        width: 14
-        height: 21
+        x: 24
+        y: 264
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -318,10 +318,10 @@ TextureImporter:
       name: Bear_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 219
-        width: 96
-        height: 15
+        x: 48
+        y: 264
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -339,10 +339,10 @@ TextureImporter:
       name: Bear_11
       rect:
         serializedVersion: 2
-        x: 0
-        y: 195
-        width: 96
-        height: 15
+        x: 72
+        y: 264
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -360,10 +360,10 @@ TextureImporter:
       name: Bear_12
       rect:
         serializedVersion: 2
-        x: 5
-        y: 169
-        width: 14
-        height: 20
+        x: 0
+        y: 240
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -381,10 +381,10 @@ TextureImporter:
       name: Bear_13
       rect:
         serializedVersion: 2
-        x: 29
-        y: 168
-        width: 14
-        height: 21
+        x: 24
+        y: 240
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -402,10 +402,10 @@ TextureImporter:
       name: Bear_14
       rect:
         serializedVersion: 2
-        x: 53
-        y: 169
-        width: 14
-        height: 20
+        x: 48
+        y: 240
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -423,10 +423,10 @@ TextureImporter:
       name: Bear_15
       rect:
         serializedVersion: 2
-        x: 77
-        y: 168
-        width: 14
-        height: 21
+        x: 72
+        y: 240
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -444,10 +444,10 @@ TextureImporter:
       name: Bear_16
       rect:
         serializedVersion: 2
-        x: 5
-        y: 144
-        width: 14
-        height: 21
+        x: 0
+        y: 216
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -465,10 +465,10 @@ TextureImporter:
       name: Bear_17
       rect:
         serializedVersion: 2
-        x: 29
-        y: 145
-        width: 14
-        height: 20
+        x: 24
+        y: 216
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -486,10 +486,10 @@ TextureImporter:
       name: Bear_18
       rect:
         serializedVersion: 2
-        x: 53
-        y: 144
-        width: 14
-        height: 21
+        x: 48
+        y: 216
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -507,10 +507,10 @@ TextureImporter:
       name: Bear_19
       rect:
         serializedVersion: 2
-        x: 77
-        y: 145
-        width: 14
-        height: 20
+        x: 72
+        y: 216
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -529,9 +529,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 123
-        width: 96
-        height: 16
+        y: 192
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -549,10 +549,10 @@ TextureImporter:
       name: Bear_21
       rect:
         serializedVersion: 2
-        x: 0
-        y: 99
-        width: 96
-        height: 16
+        x: 24
+        y: 192
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -570,10 +570,10 @@ TextureImporter:
       name: Bear_22
       rect:
         serializedVersion: 2
-        x: 5
-        y: 73
-        width: 14
-        height: 20
+        x: 48
+        y: 192
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -591,10 +591,10 @@ TextureImporter:
       name: Bear_23
       rect:
         serializedVersion: 2
-        x: 29
-        y: 73
-        width: 14
-        height: 21
+        x: 72
+        y: 192
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -612,10 +612,10 @@ TextureImporter:
       name: Bear_24
       rect:
         serializedVersion: 2
-        x: 53
-        y: 72
-        width: 14
-        height: 22
+        x: 0
+        y: 168
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -633,10 +633,10 @@ TextureImporter:
       name: Bear_25
       rect:
         serializedVersion: 2
-        x: 77
-        y: 72
-        width: 14
-        height: 21
+        x: 24
+        y: 168
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -654,10 +654,10 @@ TextureImporter:
       name: Bear_26
       rect:
         serializedVersion: 2
-        x: 5
-        y: 49
-        width: 14
-        height: 22
+        x: 48
+        y: 168
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -675,9 +675,9 @@ TextureImporter:
       name: Bear_27
       rect:
         serializedVersion: 2
-        x: 29
-        y: 48
-        width: 14
+        x: 72
+        y: 168
+        width: 24
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -696,10 +696,10 @@ TextureImporter:
       name: Bear_28
       rect:
         serializedVersion: 2
-        x: 53
-        y: 48
-        width: 14
-        height: 22
+        x: 0
+        y: 144
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -717,10 +717,10 @@ TextureImporter:
       name: Bear_29
       rect:
         serializedVersion: 2
-        x: 77
-        y: 49
-        width: 14
-        height: 21
+        x: 24
+        y: 144
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -738,10 +738,10 @@ TextureImporter:
       name: Bear_30
       rect:
         serializedVersion: 2
-        x: 0
-        y: 27
-        width: 20
-        height: 21
+        x: 48
+        y: 144
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -759,10 +759,10 @@ TextureImporter:
       name: Bear_31
       rect:
         serializedVersion: 2
-        x: 24
-        y: 27
-        width: 21
-        height: 19
+        x: 72
+        y: 144
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -780,10 +780,10 @@ TextureImporter:
       name: Bear_32
       rect:
         serializedVersion: 2
-        x: 48
-        y: 26
-        width: 21
-        height: 15
+        x: 0
+        y: 120
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -801,10 +801,10 @@ TextureImporter:
       name: Bear_33
       rect:
         serializedVersion: 2
-        x: 72
-        y: 26
-        width: 23
-        height: 12
+        x: 24
+        y: 120
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -822,10 +822,10 @@ TextureImporter:
       name: Bear_34
       rect:
         serializedVersion: 2
-        x: 4
-        y: 3
-        width: 20
-        height: 21
+        x: 48
+        y: 120
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -843,10 +843,10 @@ TextureImporter:
       name: Bear_35
       rect:
         serializedVersion: 2
-        x: 27
-        y: 3
-        width: 21
-        height: 19
+        x: 72
+        y: 120
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -864,10 +864,10 @@ TextureImporter:
       name: Bear_36
       rect:
         serializedVersion: 2
-        x: 51
-        y: 2
-        width: 21
-        height: 15
+        x: 0
+        y: 96
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -885,10 +885,10 @@ TextureImporter:
       name: Bear_37
       rect:
         serializedVersion: 2
-        x: 73
-        y: 2
-        width: 23
-        height: 12
+        x: 24
+        y: 96
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -898,6 +898,384 @@ TextureImporter:
       bones: []
       spriteID: a4c88eb88e7abba4392ba9537936ff1d
       internalID: 609502698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_38
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a00a804480cc84fa52d38d71eddc2b
+      internalID: -2018195397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_39
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 96
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f37bb0e914327e41bc1fa4b1b92987d
+      internalID: 1413445375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df2dd715f56b124eaf0df77079aba30
+      internalID: 1798942461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_41
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 72
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74cb70f9bd9f974428263e90d6e0c9b5
+      internalID: -173572553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_42
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 72
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a93e7175a1997f46847921749c268f7
+      internalID: 1740864472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_43
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 72
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef1c73f452eaf14c87e70ae2dc2e665
+      internalID: 1277709663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aac986ae4e2f814a98ee05c13182453
+      internalID: -786201917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_45
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015c22ee35dc6b5488a8d23acaf2e364
+      internalID: 1150451663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_46
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9e6a27bfa9a0740aed3aeaa166a02b
+      internalID: 1826652919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_47
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e7bd2f8d04b074db0da58a4138abea
+      internalID: 1411874735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb60dc651aba5f54a9415ed385efc488
+      internalID: -447493784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_49
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec463641f7a7844687e8cf51aa7863a
+      internalID: -1170513473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_50
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a0f9573afc9d64c8458c3f0feb1c38
+      internalID: 1138299710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_51
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea21dc7b1c444264290a811f8a455e2b
+      internalID: -1419772211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd902df1294824a4aacbc7221c1bbd6c
+      internalID: -158908294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_53
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df54512c12f974f44a494c3321162339
+      internalID: 1706335902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_54
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371ad14708494474ba6e3825042bf0a4
+      internalID: 691497344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_55
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: accf543047ed75142b3ce418f1dbe748
+      internalID: -473320829
       vertices: []
       indices: 
       edges: []
@@ -913,44 +1291,62 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Bear_37: 609502698
-      Bear_23: 591594777
+      Bear_12: -1822440300
+      Bear_52: -158908294
+      Bear_40: 1798942461
       Bear_16: -386908848
       Bear_4: 1566514360
-      Bear_24: 1071813282
-      Bear_5: -1524738130
       Bear_32: 1905970524
-      Bear_8: 205371069
-      Bear_31: 243001422
-      Bear_20: 2123123349
+      Bear_5: -1524738130
       Bear_26: -10362058
-      Bear_0: 924772623
-      Bear_18: 790410947
-      Bear_7: -557795332
       Bear_3: -1449896634
       Bear_19: 1999695839
       Bear_13: -1021251820
-      Bear_17: 475028152
       Bear_36: -785298826
-      Bear_15: 40534923
+      Bear_49: -1170513473
       Bear_9: -627659264
       Bear_6: -592478025
-      Bear_34: -1052124540
+      Bear_55: -473320829
       Bear_14: 1957561776
       Bear_28: -374920287
-      Bear_25: 1127962380
-      Bear_33: -1003456870
-      Bear_21: -812609041
       Bear_35: -1629217974
-      Bear_27: 885962146
-      Bear_1: -2098713879
-      Bear_11: -157110289
+      Bear_33: -1003456870
+      Bear_43: 1277709663
       Bear_22: -790984253
-      Bear_30: 948342320
-      Bear_29: -742055685
+      Bear_46: 1826652919
       Bear_2: -548027960
       Bear_10: -1198758412
-      Bear_12: -1822440300
+      Bear_42: 1740864472
+      Bear_54: 691497344
+      Bear_24: 1071813282
+      Bear_31: 243001422
+      Bear_8: 205371069
+      Bear_44: -786201917
+      Bear_45: 1150451663
+      Bear_39: 1413445375
+      Bear_20: 2123123349
+      Bear_0: 924772623
+      Bear_18: 790410947
+      Bear_7: -557795332
+      Bear_53: 1706335902
+      Bear_51: -1419772211
+      Bear_41: -173572553
+      Bear_48: -447493784
+      Bear_38: -2018195397
+      Bear_17: 475028152
+      Bear_15: 40534923
+      Bear_34: -1052124540
+      Bear_25: 1127962380
+      Bear_27: 885962146
+      Bear_50: 1138299710
+      Bear_21: -812609041
+      Bear_1: -2098713879
+      Bear_11: -157110289
+      Bear_30: 948342320
+      Bear_29: -742055685
+      Bear_47: 1411874735
+      Bear_23: 591594777
+      Bear_37: 609502698
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
