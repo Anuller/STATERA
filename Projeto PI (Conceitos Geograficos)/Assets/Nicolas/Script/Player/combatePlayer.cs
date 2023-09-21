@@ -33,8 +33,10 @@ public class combatePlayer : MonoBehaviour
     {
         if (Time.time >= nextAttackTime)
         {
-            if (Input.GetButtonDown("Mouse X"))
+
+            if (Input.GetButtonDown("Fire1"))
             {
+                print("Atacou");
                 Attack();
                 nextAttackTime = Time.time + 1f / attackRate;
             }
