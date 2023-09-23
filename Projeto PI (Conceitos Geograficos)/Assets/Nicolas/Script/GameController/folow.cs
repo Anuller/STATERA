@@ -9,7 +9,7 @@ public class folow : MonoBehaviour
     private Transform player;
     private bool isChasing = false;
 
-    //public Animator walk;
+    public Animator walk;
 
     private void Start()
     {
@@ -48,7 +48,7 @@ public class folow : MonoBehaviour
         // Movimenta o inimigo em direção ao jogador se estiver seguindo
         if (isChasing)
         {
-            //walk.SetTrigger("Walk");
+            walk.SetFloat("Walk", Mathf.Abs(movementSpeed));
             Vector2 targetPosition = new Vector2(player.position.x, transform.position.y);
             transform.position = Vector2.MoveTowards(transform.position, targetPosition, movementSpeed * Time.deltaTime);
         }
