@@ -35,6 +35,11 @@ public class andar : MonoBehaviour
     [Header("Tela de Morte")]
     public GameObject morte;
 
+    public float Force;
+    public float Count;
+    public float KBtime;
+    public bool isKnouk;
+
 
     // Start is called before the first frame update
     void Start()
@@ -46,6 +51,32 @@ public class andar : MonoBehaviour
 
         healthBar.SetMaxHealth(maxHealth);
     }
+
+    private void Update()
+    {
+        KnockBack();
+    }
+
+    void KnockBack()
+    {
+        if (Count < 0)
+        {
+            Move();
+        }
+        else
+        {
+            if (!isKnouk == true)
+            {
+                fisica.velocity = new Vector2(-Force, Force);
+            }
+            if (!isKnouk == false)
+            {
+                fisica.velocity = new Vector2(Force, Force);
+            }
+        }
+        Count -= Time.deltaTime;
+    }
+
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
@@ -78,7 +109,7 @@ public class andar : MonoBehaviour
 
     #region movimentação do player
     // Update is called once per frame
-    void Update()
+    void Move()
     {
         terra = Physics2D.OverlapCircle(correr.position, 0.3f, chao);
 
