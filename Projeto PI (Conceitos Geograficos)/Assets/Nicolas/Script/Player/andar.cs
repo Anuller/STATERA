@@ -92,12 +92,13 @@ public class andar : MonoBehaviour
         }
 
     }
-    void Die()
+    public void Die()
     {
         Debug.Log("Player died!");
 
         player.SetBool("IsDead", true);
         // Animaçao de morte
+
         morte.SetActive(true);
         Time.timeScale = 0f;
         fisica.velocity = Vector2.zero;

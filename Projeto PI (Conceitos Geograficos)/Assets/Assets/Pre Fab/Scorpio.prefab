@@ -514,6 +514,7 @@ GameObject:
   - component: {fileID: 6867123925152899572}
   - component: {fileID: 240607846}
   - component: {fileID: 1773681294988645609}
+  - component: {fileID: 869080725}
   m_Layer: 20
   m_Name: Scorpio
   m_TagString: Inimigo
@@ -637,7 +638,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.0015261769}
+  m_Offset: {x: -0.014266014, y: -0.26905465}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -648,7 +649,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.3333334, y: 0.9613856}
+  m_Size: {x: 1.2905331, y: 0.42632866}
   m_EdgeRadius: 0
 --- !u!50 &8903576537566412750
 Rigidbody2D:
@@ -734,3 +735,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!70 &869080725
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8903576537566412749}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.18192415, y: 0.16230404}
+  m_Size: {x: 1.0408429, y: 0.6163861}
+  m_Direction: 1
