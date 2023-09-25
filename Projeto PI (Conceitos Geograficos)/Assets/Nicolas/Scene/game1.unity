@@ -11842,8 +11842,8 @@ SliderJoint2D:
     m_MaximumMotorForce: 10000
   m_UseLimits: 1
   m_TranslationLimits:
-    m_LowerTranslation: -10.9
-    m_UpperTranslation: 10.9
+    m_LowerTranslation: 0
+    m_UpperTranslation: 0
 --- !u!50 &1440448833
 Rigidbody2D:
   serializedVersion: 4
