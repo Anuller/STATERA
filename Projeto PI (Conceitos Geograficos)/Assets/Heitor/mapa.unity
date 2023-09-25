@@ -1166,6 +1166,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1095205379, guid: 84c8ced957af88c4dac0a0fb27331a80, type: 3}
+      propertyPath: m_PixelPerfect
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3524103230851364882, guid: 84c8ced957af88c4dac0a0fb27331a80,
         type: 3}
       propertyPath: m_Name
@@ -1235,7 +1239,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 84c8ced957af88c4dac0a0fb27331a80, type: 3}
 --- !u!95 &526955339 stripped
 Animator:
-  m_CorrespondingSourceObject: {fileID: 3524103231948087709, guid: 84c8ced957af88c4dac0a0fb27331a80,
+  m_CorrespondingSourceObject: {fileID: 1095205376, guid: 84c8ced957af88c4dac0a0fb27331a80,
     type: 3}
   m_PrefabInstance: {fileID: 526955338}
   m_PrefabAsset: {fileID: 0}

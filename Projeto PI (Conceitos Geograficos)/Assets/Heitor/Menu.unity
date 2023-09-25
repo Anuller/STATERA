@@ -276,10 +276,19 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1095205379, guid: 84c8ced957af88c4dac0a0fb27331a80, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1306955695}
     - target: {fileID: 3524103230851364882, guid: 84c8ced957af88c4dac0a0fb27331a80,
         type: 3}
       propertyPath: m_Name
       value: LevelLoader
+      objectReference: {fileID: 0}
+    - target: {fileID: 3524103230851364882, guid: 84c8ced957af88c4dac0a0fb27331a80,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3524103230851364883, guid: 84c8ced957af88c4dac0a0fb27331a80,
         type: 3}
@@ -708,7 +717,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 118958443}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1490052370}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0e1f5f15655dfdf4b908ec77ae793f9e, type: 3}
@@ -1157,6 +1166,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1417679927}
   m_CullTransparentMesh: 1
+--- !u!1 &1490052370 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3524103230851364882, guid: 84c8ced957af88c4dac0a0fb27331a80,
+    type: 3}
+  m_PrefabInstance: {fileID: 118958443}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1570698720
 GameObject:
   m_ObjectHideFlags: 0
@@ -1446,6 +1461,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1490052370}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
       - m_Target: {fileID: 1009056043}
         m_TargetAssemblyTypeName: LevelLoader, Assembly-CSharp
         m_MethodName: LoadlNextLoader
@@ -1456,7 +1483,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: mapa
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &1819912914
 MonoBehaviour:
@@ -1589,7 +1616,7 @@ Canvas:
   m_RenderMode: 1
   m_Camera: {fileID: 1306955695}
   m_PlaneDistance: 100
-  m_PixelPerfect: 0
+  m_PixelPerfect: 1
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
