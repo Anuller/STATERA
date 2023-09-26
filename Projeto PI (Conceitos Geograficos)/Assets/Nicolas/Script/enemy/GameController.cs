@@ -7,6 +7,6 @@ public class GameController : MonoBehaviour
 {
     public void GameOver()
     {
-        SceneManager.LoadScene("game1");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

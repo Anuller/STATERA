@@ -158,6 +158,15 @@ public class andar : MonoBehaviour
         {
             player.SetBool("Jump", false);
         }
-
+        if (collsion.collider.CompareTag("espinho") == true)
+        {
+            morte.SetActive(true);
+            Time.timeScale = 0f;
+            fisica.velocity = Vector2.zero;
+            this.enabled = false;
+            GetComponent<Collider2D>().enabled = false;
+            fisica.gravityScale = 0;
+            player.SetBool("IsDead", true);
+        }
     }
 }
