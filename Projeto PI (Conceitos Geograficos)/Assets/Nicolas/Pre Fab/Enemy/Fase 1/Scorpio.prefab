@@ -512,7 +512,6 @@ GameObject:
   - component: {fileID: 8903576537566412750}
   - component: {fileID: 6867123925152899571}
   - component: {fileID: 6867123925152899572}
-  - component: {fileID: 240607846}
   - component: {fileID: 1773681294988645609}
   - component: {fileID: 869080725}
   m_Layer: 20
@@ -688,6 +687,8 @@ MonoBehaviour:
   monster: {fileID: 8903576537566412754}
   vidaMaxima: 100
   barraVida: {fileID: 2649021907458031838}
+  particula: {fileID: 6571287855092683395, guid: 601823ebcdecd544db9b6d0d81f32c9f,
+    type: 3}
 --- !u!114 &6867123925152899572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -708,21 +709,6 @@ MonoBehaviour:
     m_Bits: 128
   attackDamage: 5
   attackRate: 2
---- !u!114 &240607846
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8903576537566412749}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af5cc64ccfc8a794aa3d7fbbea205ba3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  monster: {fileID: 8903576537566412754}
-  vidaMaxima: 100
-  barraVida: {fileID: 2649021907458031838}
 --- !u!114 &1773681294988645609
 MonoBehaviour:
   m_ObjectHideFlags: 0
