@@ -34372,7 +34372,7 @@ PrefabInstance:
     - target: {fileID: 2557675742060501344, guid: 94b0d44ae3225b446b04d5800428ab42,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -41.67
+      value: -41.7
       objectReference: {fileID: 0}
     - target: {fileID: 2557675742060501344, guid: 94b0d44ae3225b446b04d5800428ab42,
         type: 3}
@@ -34421,6 +34421,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2557675742060501346, guid: 94b0d44ae3225b446b04d5800428ab42,
         type: 3}
+      propertyPath: attackRange
+      value: 1.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 2557675742060501346, guid: 94b0d44ae3225b446b04d5800428ab42,
+        type: 3}
       propertyPath: enemyLayers.m_Bits
       value: 1048640
       objectReference: {fileID: 0}
@@ -34443,6 +34448,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6410307693776365326, guid: 94b0d44ae3225b446b04d5800428ab42,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.81
       objectReference: {fileID: 0}
     - target: {fileID: 6985185199810244931, guid: 94b0d44ae3225b446b04d5800428ab42,
         type: 3}
@@ -39663,7 +39673,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1771100672}
   m_LocalRotation: {x: -0.07437623, y: -0.00000000428968, z: -3.1993638e-10, w: 0.9972303}
-  m_LocalPosition: {x: -41.67, y: -1.0844985, z: -10}
+  m_LocalPosition: {x: -41.7, y: -1.0844985, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
