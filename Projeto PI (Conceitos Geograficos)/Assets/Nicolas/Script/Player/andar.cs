@@ -40,6 +40,8 @@ public class andar : MonoBehaviour
     public float KBtime;
     public bool isKnouk;
 
+    public Animator damageEffect;
+
 
     // Start is called before the first frame update
     void Start()
@@ -80,7 +82,7 @@ public class andar : MonoBehaviour
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
-
+        damageEffect.SetTrigger("Effect");
         healthBar.SetHealth(currentHealth);
 
         //player.SetTrigger("Hurt");

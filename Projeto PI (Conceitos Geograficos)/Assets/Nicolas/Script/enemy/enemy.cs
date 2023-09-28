@@ -16,6 +16,8 @@ public class enemy : MonoBehaviour
 
     public hearth barraVida;
 
+    public GameObject particula;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -44,13 +46,22 @@ public class enemy : MonoBehaviour
     {
         Debug.Log("Enemy died!");
 
+        //efeito de morte
+        GameObject part = Instantiate(particula, transform.position, transform.rotation);
+        Destroy(part, 0.4f);
+
+        //gameObject.GetComponent<SpriteRenderer>().enabled = false;
+
+
         monster.SetBool("IsDead", true);
+
         // Animaçao de morte
+        //Destroy(part);
         Destroy(gameObject);
 
-        this.enabled = false;
-        GetComponent<Collider2D>().enabled = false;
-        rigidbody2.gravityScale = 0;
+        //this.enabled = false;
+        //GetComponent<Collider2D>().enabled = false;
+        //rigidbody2.gravityScale = 0;
         
         // Desativar o inimigo
     }
