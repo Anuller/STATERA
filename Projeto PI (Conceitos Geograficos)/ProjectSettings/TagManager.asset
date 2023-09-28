@@ -8,6 +8,7 @@ TagManager:
   - Inimigo
   - Win
   - espinho
+  - maldicion
   layers:
   - Default
   - TransparentFX

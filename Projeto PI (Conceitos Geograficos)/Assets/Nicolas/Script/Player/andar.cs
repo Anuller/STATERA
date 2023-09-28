@@ -42,6 +42,8 @@ public class andar : MonoBehaviour
 
     public Animator damageEffect;
 
+    public Animator effectmaldicion;
+
 
     // Start is called before the first frame update
     void Start()
@@ -169,6 +171,10 @@ public class andar : MonoBehaviour
             GetComponent<Collider2D>().enabled = false;
             fisica.gravityScale = 0;
             player.SetBool("IsDead", true);
+        }
+        if (collsion.collider.CompareTag("maldicion"))
+        {
+            effectmaldicion.SetTrigger("maldição");
         }
     }
 }
