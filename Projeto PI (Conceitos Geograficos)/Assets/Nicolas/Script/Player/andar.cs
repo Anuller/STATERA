@@ -172,9 +172,6 @@ public class andar : MonoBehaviour
             fisica.gravityScale = 0;
             player.SetBool("IsDead", true);
         }
-        if (collsion.collider.CompareTag("maldicion"))
-        {
-            effectmaldicion.SetTrigger("maldição");
-        }
+        
     }
 }
