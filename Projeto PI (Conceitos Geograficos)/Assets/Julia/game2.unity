@@ -2716,7 +2716,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &569949799
 RectTransform:
   m_ObjectHideFlags: 0
@@ -34362,8 +34362,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
-  m_EffectDistance: {x: 10, y: -10}
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 10, y: -8}
   m_UseGraphicAlpha: 1
 --- !u!114 &1484480702
 MonoBehaviour:
@@ -41756,8 +41756,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
-  m_EffectDistance: {x: 8, y: -8}
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 10, y: -8}
   m_UseGraphicAlpha: 1
 --- !u!114 &2061746814
 MonoBehaviour:
@@ -42314,6 +42314,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 343490935}
     m_Modifications:
+    - target: {fileID: 6421035226035231944, guid: 7dda4c83875f67244b228fa1d4cca335,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6421035226626212118, guid: 7dda4c83875f67244b228fa1d4cca335,
         type: 3}
       propertyPath: m_Camera
@@ -42428,6 +42433,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 6421035226626212202, guid: 7dda4c83875f67244b228fa1d4cca335,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7dda4c83875f67244b228fa1d4cca335, type: 3}
