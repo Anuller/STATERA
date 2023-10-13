@@ -113,7 +113,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 25
   m_Sprite: {fileID: 1566514360, guid: 1239c312ccd61ca4886ec130380a9652, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemy: {fileID: 7414085507482633886}
   attackPoint: {fileID: 7414085506545082559}
-  attackRange: 1.1
+  attackRange: 0.75
   playerMask:
     serializedVersion: 2
     m_Bits: 128
@@ -160,7 +160,7 @@ MonoBehaviour:
   monster: {fileID: 7414085507482633886}
   vidaMaxima: 100
   barraVida: {fileID: 5144993100003192733}
-  particula: {fileID: 1999348564464235879, guid: 96538c0b76c5e3040bbffa91631ee320,
+  particula: {fileID: 6571287855092683395, guid: 601823ebcdecd544db9b6d0d81f32c9f,
     type: 3}
 --- !u!114 &7414085507482633873
 MonoBehaviour:

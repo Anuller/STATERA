@@ -231,7 +231,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 28726728}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0.0000000074505797, y: -0.000000008508008, z: -0.000000001276201,
+    w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -35231,7 +35232,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemy: {fileID: 1093851114}
   attackPoint: {fileID: 2086853274}
-  attackRange: 1
+  attackRange: 0.7
   playerMask:
     serializedVersion: 2
     m_Bits: 128
@@ -35756,7 +35757,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemy: {fileID: 1338603801}
   attackPoint: {fileID: 2076452240}
-  attackRange: 1
+  attackRange: 0.7
   playerMask:
     serializedVersion: 2
     m_Bits: 128
@@ -37494,7 +37495,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemy: {fileID: 1468450212}
   attackPoint: {fileID: 805021014}
-  attackRange: 1
+  attackRange: 0.7
   playerMask:
     serializedVersion: 2
     m_Bits: 128
@@ -37810,7 +37811,7 @@ PrefabInstance:
     - target: {fileID: 2557675742060501346, guid: 94b0d44ae3225b446b04d5800428ab42,
         type: 3}
       propertyPath: attackRange
-      value: 0.8
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 2557675742060501346, guid: 94b0d44ae3225b446b04d5800428ab42,
         type: 3}
@@ -43141,7 +43142,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1771100672}
-  m_LocalRotation: {x: -0.07437623, y: -0.00000000428968, z: -3.1993638e-10, w: 0.9972303}
+  m_LocalRotation: {x: -0.074376225, y: -0.000000004289682, z: -3.199365e-10, w: 0.9972303}
   m_LocalPosition: {x: -41.4, y: -1.0844985, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -43368,7 +43369,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemy: {fileID: 1786775157}
   attackPoint: {fileID: 1029340124}
-  attackRange: 1
+  attackRange: 0.7
   playerMask:
     serializedVersion: 2
     m_Bits: 128
@@ -43727,7 +43728,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemy: {fileID: 1825283778}
   attackPoint: {fileID: 1154681692}
-  attackRange: 1
+  attackRange: 0.7
   playerMask:
     serializedVersion: 2
     m_Bits: 128
@@ -44369,7 +44370,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemy: {fileID: 2045356556}
   attackPoint: {fileID: 413386618}
-  attackRange: 1
+  attackRange: 0.7
   playerMask:
     serializedVersion: 2
     m_Bits: 128
@@ -44741,7 +44742,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemy: {fileID: 2103098710}
   attackPoint: {fileID: 386110030}
-  attackRange: 1
+  attackRange: 0.7
   playerMask:
     serializedVersion: 2
     m_Bits: 128
@@ -44815,17 +44816,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7414085507482633872, guid: 5a8e017f15c390b42a3c689321d23254,
-        type: 3}
-      propertyPath: particula
-      value: 
-      objectReference: {fileID: 6571287855092683395, guid: 601823ebcdecd544db9b6d0d81f32c9f,
-        type: 3}
-    - target: {fileID: 7414085507482633876, guid: 5a8e017f15c390b42a3c689321d23254,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 7414085507482633877, guid: 5a8e017f15c390b42a3c689321d23254,
         type: 3}

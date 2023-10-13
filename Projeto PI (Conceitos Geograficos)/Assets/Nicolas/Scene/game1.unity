@@ -970,6 +970,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &284831962 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1798245723203181877, guid: 767a067761fa8e34ba1ebf917d467742,
+    type: 3}
+  m_PrefabInstance: {fileID: 1798245722488820108}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &286455598
 GameObject:
   m_ObjectHideFlags: 0
@@ -9503,7 +9509,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 22
+  m_SortingOrder: 100
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6,
     type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
@@ -11947,6 +11953,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1050205354 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1798245723869040819, guid: 767a067761fa8e34ba1ebf917d467742,
+    type: 3}
+  m_PrefabInstance: {fileID: 1798245722488820108}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1054638037
 GameObject:
   m_ObjectHideFlags: 0
@@ -14215,7 +14227,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 22
+  m_SortingOrder: 100
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6,
     type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
@@ -14234,6 +14246,19 @@ Animator:
     type: 3}
   m_PrefabInstance: {fileID: 1798245722488820108}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1440448841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1050205354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6622e12c206f4624ca7dbee131a4baf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectmaldicion: {fileID: 284831962}
 --- !u!1 &1465785325
 GameObject:
   m_ObjectHideFlags: 0
@@ -51253,6 +51278,10 @@ PrefabInstance:
       propertyPath: final
       value: 
       objectReference: {fileID: 1938332274}
+    - target: {fileID: 768385436, guid: 94b0d44ae3225b446b04d5800428ab42, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2557675742060501344, guid: 94b0d44ae3225b446b04d5800428ab42,
         type: 3}
       propertyPath: m_RootOrder
