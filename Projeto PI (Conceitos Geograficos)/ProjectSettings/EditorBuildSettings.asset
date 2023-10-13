@@ -6,10 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Heitor/Menu.unity
+    path: Assets/Heitor/Scane/Menu.unity
     guid: 60df3b4c8b0b68147b36991b3aa0a166
   - enabled: 1
-    path: Assets/Heitor/mapa.unity
+    path: Assets/Heitor/Scane/mapa.unity
     guid: 6c8477c5d5b03af44a86dfc8c8828191
   - enabled: 1
     path: Assets/Nicolas/Scene/game1.unity
