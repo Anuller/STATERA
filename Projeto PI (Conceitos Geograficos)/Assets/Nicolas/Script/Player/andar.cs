@@ -44,6 +44,14 @@ public class andar : MonoBehaviour
 
     public Animator effectmaldicion;
 
+    public AudioSource audio;
+
+    [Header("Audio")]
+    public AudioClip jump;
+    public AudioClip gemido;
+    public AudioClip walk;
+    public AudioClip atk;
+
 
     // Start is called before the first frame update
     void Start()
@@ -60,7 +68,11 @@ public class andar : MonoBehaviour
     {
         KnockBack();
     }
-
+    public void TocaSom(AudioClip clip)
+    {
+        audio.clip = clip;
+        audio.Play();
+    }
     void KnockBack()
     {
         if (Count < 0)
@@ -83,6 +95,7 @@ public class andar : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        TocaSom(gemido);
         currentHealth -= damage;
         damageEffect.SetTrigger("Effect");
         healthBar.SetHealth(currentHealth);
@@ -121,12 +134,16 @@ public class andar : MonoBehaviour
         filme = Input.GetAxisRaw("Horizontal");
 
         player.SetBool("isMoving", filme != 0);
-
+        if(filme != 0 && terra)
+        {
+        TocaSom(walk);
+        }
         fisica.velocity = new Vector2(filme * speed, fisica.velocity.y);
 
         // Pulo do Personagem
         if (terra && Input.GetKeyDown(KeyCode.Space))
         {
+            TocaSom(jump);
             fisica.velocity = Vector2.up * jumpforce;
             player.SetBool("Jump", true);
         }

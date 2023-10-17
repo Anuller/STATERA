@@ -7,6 +7,7 @@ public class combatePlayer : MonoBehaviour
 
     [Header("Animator do attack do Player")]
     public Animator player;
+    public andar andarScript;
 
     // Faz referencia ao ponto de attack
     [Header("Referencia do Ponto de attack")]
@@ -37,6 +38,7 @@ public class combatePlayer : MonoBehaviour
             if (Input.GetButtonDown("Fire1"))
             {
                 print("Atacou");
+                andarScript.TocaSom(andarScript.atk);
                 Attack();
                 nextAttackTime = Time.time + 1f / attackRate;
             }
