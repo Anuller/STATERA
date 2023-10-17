@@ -44,7 +44,7 @@ public class andar : MonoBehaviour
 
     public Animator effectmaldicion;
 
-    public AudioSource audio;
+    public AudioSource audioSound;
 
     [Header("Audio")]
     public AudioClip jump;
@@ -70,8 +70,8 @@ public class andar : MonoBehaviour
     }
     public void TocaSom(AudioClip clip)
     {
-        audio.clip = clip;
-        audio.Play();
+        audioSound.clip = clip;
+        audioSound.Play();
     }
     void KnockBack()
     {

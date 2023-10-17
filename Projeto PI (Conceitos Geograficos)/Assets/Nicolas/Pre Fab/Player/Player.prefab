@@ -202,7 +202,7 @@ MonoBehaviour:
   isKnouk: 0
   damageEffect: {fileID: 0}
   effectmaldicion: {fileID: 0}
-  audio: {fileID: 2557675742559926518}
+  audioSound: {fileID: 2557675742559926518}
   jump: {fileID: 8300000, guid: aac439c07a630494e91c6c49a430a74b, type: 3}
   gemido: {fileID: 8300000, guid: 3b5be09ae4268534784a0a8b71bda60b, type: 3}
   walk: {fileID: 8300000, guid: d338c587e892ba543a2532b3f49cc5c2, type: 3}
