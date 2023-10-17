@@ -249,6 +249,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &66118566 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1566265689, guid: 4cb6d44f929091c479cb9463803b08cb,
+    type: 3}
+  m_PrefabInstance: {fileID: 487577081}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &72694815
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1777,6 +1783,19 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 379098119, guid: 4cb6d44f929091c479cb9463803b08cb, type: 3}
+      propertyPath: m_Text
+      value: "Clima: Do tipo subtropical.\n\nVegeta\xE7\xE3o: Do tipo campestre (gram\xEDneas,
+        herb\xE1ceas e algumas \xE1rvores).\n\nRelevo: Do tipo Plan\xEDcie Costeira.\nEssas
+        plan\xEDcies desenvolvem grandes rebanhos.\n\nA principal atividade econ\xF4mica
+        praticada nesse bioma \xE9 a pecu\xE1ria extensiva(cria\xE7\xE3o de bois
+        e ovelhas).\n\nE como produ\xE7\xE3o agr\xEDcola \xE9 o plantio de soja,
+        arroz, milho,\_trigo\_e\_uva."
+      objectReference: {fileID: 0}
+    - target: {fileID: 379098119, guid: 4cb6d44f929091c479cb9463803b08cb, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 1566265693, guid: 4cb6d44f929091c479cb9463803b08cb, type: 3}
       propertyPath: m_Camera
       value: 
@@ -1792,6 +1811,10 @@ PrefabInstance:
     - target: {fileID: 1590218578, guid: 4cb6d44f929091c479cb9463803b08cb, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -236.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2124106616, guid: 4cb6d44f929091c479cb9463803b08cb, type: 3}
+      propertyPath: m_Text
+      value: Pampa
       objectReference: {fileID: 0}
     - target: {fileID: 8083856315235951724, guid: 4cb6d44f929091c479cb9463803b08cb,
         type: 3}
@@ -1892,7 +1915,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1877922267}
+      objectReference: {fileID: 487577083}
+    - target: {fileID: 8083856315774127956, guid: 4cb6d44f929091c479cb9463803b08cb,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadMenu
+      objectReference: {fileID: 0}
     - target: {fileID: 8083856316011372547, guid: 4cb6d44f929091c479cb9463803b08cb,
         type: 3}
       propertyPath: m_IsActive
@@ -1902,7 +1930,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1877922267}
+      objectReference: {fileID: 487577083}
+    - target: {fileID: 8083856316182772889, guid: 4cb6d44f929091c479cb9463803b08cb,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadMenu
+      objectReference: {fileID: 0}
     - target: {fileID: 8083856316188010284, guid: 4cb6d44f929091c479cb9463803b08cb,
         type: 3}
       propertyPath: m_IsActive
@@ -1986,7 +2019,7 @@ PrefabInstance:
     - target: {fileID: 8083856316616471126, guid: 4cb6d44f929091c479cb9463803b08cb,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8083856316756281056, guid: 4cb6d44f929091c479cb9463803b08cb,
         type: 3}
@@ -2026,6 +2059,18 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 487577081}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &487577083 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8083856316806039207, guid: 4cb6d44f929091c479cb9463803b08cb,
+    type: 3}
+  m_PrefabInstance: {fileID: 487577081}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81cc305718fb6344a878d238e1f104dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &496099926
 GameObject:
   m_ObjectHideFlags: 0
@@ -12830,7 +12875,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1141882038}
-  m_LocalRotation: {x: -0.07437623, y: -0.00000000428968, z: -3.1993638e-10, w: 0.9972303}
+  m_LocalRotation: {x: -0.07437623, y: 0.000000004294751, z: 3.2031458e-10, w: 0.9972303}
   m_LocalPosition: {x: -12.93, y: -1.8800001, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -14921,7 +14966,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 997.0002, y: 382.00003}
+  m_AnchoredPosition: {x: 768, y: 379}
   m_SizeDelta: {x: 109.753, y: 109.753}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1479140332
@@ -14968,13 +15013,25 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 66118566}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 487577083}
+        m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
+        m_MethodName: Resume
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -17028,7 +17085,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1774386029}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: 8.517142e-11, z: 1.2775751e-11, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -51306,7 +51363,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 997.0001, y: 382}
+  m_AnchoredPosition: {x: 767.9999, y: 379}
   m_SizeDelta: {x: 208.75, y: 208.754}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2076754112

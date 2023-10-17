@@ -35,8 +35,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 34.74, y: 25.2}
-  m_SizeDelta: {x: 547.91, y: 512.27}
+  m_AnchoredPosition: {x: 18, y: -5}
+  m_SizeDelta: {x: 512.95, y: 549.16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &379098120
 CanvasRenderer:
@@ -68,10 +68,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 870d5e37a5d6d2b4fb2f9012cc6567b3, type: 3}
-    m_FontSize: 20
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 1
+    m_MinSize: 0
     m_MaxSize: 65
     m_Alignment: 3
     m_AlignByGeometry: 0
@@ -79,11 +79,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Clima: Do tipo subtropical.\n\nVegeta\xE7\xE3o: Do tipo campestre (gram\xEDneas,
-    herb\xE1ceas e algumas \xE1rvores).\n\nRelevo: Do tipo Plan\xEDcie Costeira.\nEssas
-    plan\xEDcies desenvolvem grandes rebanhos.\n\nA principal atividade econ\xF4mica
-    praticada nesse bioma \xE9 a pecu\xE1ria extensiva(cria\xE7\xE3o de bois e ovelhas).\n\nE
-    como produ\xE7\xE3o agr\xEDcola \xE9 o plantio de soja, arroz, milho,\_trigo\_e\_uva."
+  m_Text: "Clima: Do tipo sub\xE1rtico.\n\nVegeta\xE7\xE3o: Do tipo Floresta Boreal
+    ou de Floresta de Con\xEDferas (pinheiros, \nabetos, cedros, pinheiros-lar\xEDcios,
+    espruces, b\xE9tulas).\nRelevo: Do tipo Plan\xEDcie Costeira.\n\nFauna:Composta
+    por ursos, linces, alces, etc).\n\nA principal atividade econ\xF4mica praticada
+    nesse bioma \xE9 a explora\xE7\xE3o de madeira."
 --- !u!1 &761387693
 GameObject:
   m_ObjectHideFlags: 0
@@ -457,7 +457,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00013733, y: 259}
+  m_AnchoredPosition: {x: 9.3601, y: 252}
   m_SizeDelta: {x: 598.67, y: 88.77}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2124106617
@@ -490,10 +490,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 870d5e37a5d6d2b4fb2f9012cc6567b3, type: 3}
-    m_FontSize: 60
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
+    m_MinSize: 0
     m_MaxSize: 60
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -501,7 +501,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Pampa
+  m_Text: Taiga
 --- !u!1 &8083856314906574920
 GameObject:
   m_ObjectHideFlags: 0
@@ -1378,9 +1378,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: trocacena, Assembly-CSharp
-        m_MethodName: Teleport
-        m_Mode: 5
+        m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
+        m_MethodName: LoadMenu
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2146,10 +2146,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: trocacena, Assembly-CSharp
-        m_MethodName: Teleport
-        m_Mode: 5
+      - m_Target: {fileID: 8083856316806039207}
+        m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
+        m_MethodName: LoadMenu
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
