@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 16384
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -1147,7 +1147,7 @@ TextureImporter:
       Wolf_5: -722694597
       Wolf_24: -39770996
       Wolf_11: -237859880
-      Wolf_45: -116790431
+      Wolf_28: -841257558
       Wolf_26: -1666137868
       Wolf_9: -1189545005
       Wolf_15: -1798211632
@@ -1192,7 +1192,7 @@ TextureImporter:
       Wolf_7: -723572070
       Wolf_25: 918811383
       Wolf_38: 358241782
-      Wolf_28: -841257558
+      Wolf_45: -116790431
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
