@@ -703,7 +703,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemy: {fileID: 8903576537566412754}
   attackPoint: {fileID: 2649021907961485868}
-  attackRange: 0.6
+  attackRange: 0.5
   playerMask:
     serializedVersion: 2
     m_Bits: 128
