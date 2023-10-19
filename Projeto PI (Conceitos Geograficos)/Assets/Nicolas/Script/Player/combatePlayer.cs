@@ -34,12 +34,15 @@ public class combatePlayer : MonoBehaviour
     {
         if (Time.time >= nextAttackTime)
         {
-
+            andarScript.speed = 8;
             if (Input.GetButtonDown("Fire1"))
             {
                 print("Atacou");
                 andarScript.TocaSom(andarScript.atk);
+                
                 Attack();
+                
+
                 nextAttackTime = Time.time + 1f / attackRate;
             }
         }
@@ -48,8 +51,11 @@ public class combatePlayer : MonoBehaviour
     public void Attack()
     {
         //Reproduzir uma animação de ataque
+        andarScript.speed = 0;
         player.SetTrigger("Attack");
+        
 
+        //andarScript.speed = 8;
         //Detectar inimigos ao alcance do ataque
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
@@ -58,21 +64,30 @@ public class combatePlayer : MonoBehaviour
         {
             if (enemy == null)
             {
+                andarScript.speed = 8;
                 return;
+                //andarScript.speed = 8;
+
             }
             else
             {
+                //andarScript.speed = 8;
                 // acessar o componente dos inimigos
                 enemy.GetComponent<enemy>().TakeDamage(attackDamage);
+                //andarScript.speed = 8;
             }
-            
         }
     }
 
     void OnDrawGizmosSelected()
     {
         if (attackPoint == null)
+        {
+            
             return;
+            //andarScript.speed = 8;
+        }
+        
 
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }

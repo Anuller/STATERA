@@ -35,11 +35,13 @@ public class andar : MonoBehaviour
     [Header("Tela de Morte")]
     public GameObject morte;
 
+    [Header("Knouk Back")]
     public float Force;
     public float Count;
     public float KBtime;
     public bool isKnouk;
 
+    [Header("Animação")]
     public Animator damageEffect;
 
     public Animator effectmaldicion;
@@ -127,7 +129,7 @@ public class andar : MonoBehaviour
 
     #region movimentação do player
     // Update is called once per frame
-    void Move()
+    public void Move()
     {
         terra = Physics2D.OverlapCircle(correr.position, 0.3f, chao);
 
