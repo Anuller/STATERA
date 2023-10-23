@@ -32,16 +32,20 @@ public class combatePlayer : MonoBehaviour
 
     void Update()
     {
+        StartAtaque();
+    }
+    public void StartAtaque()
+    {
         if (Time.time >= nextAttackTime)
         {
-            andarScript.speed = 8;
+            //andarScript.speed = 8;
             if (Input.GetButtonDown("Fire1"))
             {
                 print("Atacou");
                 andarScript.TocaSom(andarScript.atk);
-                
+
                 Attack();
-                
+
 
                 nextAttackTime = Time.time + 1f / attackRate;
             }
@@ -51,7 +55,7 @@ public class combatePlayer : MonoBehaviour
     public void Attack()
     {
         //Reproduzir uma animação de ataque
-        andarScript.speed = 0;
+        //andarScript.speed = 0;
         player.SetTrigger("Attack");
         
 
@@ -64,17 +68,13 @@ public class combatePlayer : MonoBehaviour
         {
             if (enemy == null)
             {
-                andarScript.speed = 8;
                 return;
-                //andarScript.speed = 8;
 
             }
             else
             {
-                //andarScript.speed = 8;
                 // acessar o componente dos inimigos
                 enemy.GetComponent<enemy>().TakeDamage(attackDamage);
-                //andarScript.speed = 8;
             }
         }
     }
