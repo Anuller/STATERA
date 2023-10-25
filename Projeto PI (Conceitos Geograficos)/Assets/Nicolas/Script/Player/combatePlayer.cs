@@ -13,7 +13,7 @@ public class combatePlayer : MonoBehaviour
     [Header("Referencia do Ponto de attack")]
     public Transform attackPoint;
 
-    // Determina a disatncia do attack
+    // Determina a distancia do attack
     [Header("Ranger do attack")]
     public float attackRange = 0.5f;
 
