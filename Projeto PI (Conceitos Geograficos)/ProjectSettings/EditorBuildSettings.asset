@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Nicolas/Scene/fase3.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Julia/Dialogo1.unity
+    guid: ecf721becc6ca424a80cbab222584069
   m_configObjects: {}
