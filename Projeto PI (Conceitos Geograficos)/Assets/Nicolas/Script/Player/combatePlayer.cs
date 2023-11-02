@@ -38,7 +38,7 @@ public class combatePlayer : MonoBehaviour
     {
         if (Time.time >= nextAttackTime)
         {
-            //andarScript.speed = 8;
+            andarScript.speed = 8;
             if (Input.GetButtonDown("Fire1"))
             {
                 print("Atacou");
@@ -55,7 +55,7 @@ public class combatePlayer : MonoBehaviour
     public void Attack()
     {
         //Reproduzir uma animação de ataque
-        //andarScript.speed = 0;
+        andarScript.speed = 0;
         player.SetTrigger("Attack");
         
 

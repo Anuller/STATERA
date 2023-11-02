@@ -136,7 +136,7 @@ public class andar : MonoBehaviour
         filme = Input.GetAxisRaw("Horizontal");
 
         player.SetBool("isMoving", filme != 0);
-        if(filme != 0 && terra)
+        if(filme != 0 && terra && speed != 0)
         {
         TocaSom(walk);
         }
