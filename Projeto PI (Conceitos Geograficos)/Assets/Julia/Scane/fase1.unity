@@ -231,7 +231,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 28726728}
-  m_LocalRotation: {x: -0, y: 3e-45, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: -1e-45, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -48521,8 +48521,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.019959679, y: -0.10370113}
-  m_Size: {x: 2.4399228, y: 1.3898507}
+  m_Offset: {x: 0.016752247, y: 0.009567379}
+  m_Size: {x: 2.5361009, y: 1.2530855}
   m_Direction: 1
 --- !u!95 &1338603801
 Animator:
@@ -51527,8 +51527,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.019959679, y: -0.10370113}
-  m_Size: {x: 2.4399228, y: 1.3898507}
+  m_Offset: {x: 0.016752247, y: 0.009567379}
+  m_Size: {x: 2.5361009, y: 1.2530855}
   m_Direction: 1
 --- !u!95 &1468450212
 Animator:
@@ -57187,7 +57187,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1771100672}
-  m_LocalRotation: {x: -0.046102416, y: 1e-45, z: 0, w: 0.9989368}
+  m_LocalRotation: {x: -0.046102416, y: 0, z: 0, w: 0.9989368}
   m_LocalPosition: {x: -45.82, y: -1.0844985, z: -20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -72361,8 +72361,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.019959679, y: -0.10370113}
-  m_Size: {x: 2.4399228, y: 1.3898507}
+  m_Offset: {x: 0.016752247, y: 0.009567379}
+  m_Size: {x: 2.5361009, y: 1.2530855}
   m_Direction: 1
 --- !u!95 &2045356556
 Animator:
@@ -72640,8 +72640,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.019959679, y: -0.10370113}
-  m_Size: {x: 2.4399228, y: 1.3898507}
+  m_Offset: {x: 0.016752247, y: 0.009567379}
+  m_Size: {x: 2.5361009, y: 1.2530855}
   m_Direction: 1
 --- !u!95 &2103098710
 Animator:
@@ -73127,6 +73127,16 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1771100674}
+    - target: {fileID: 7414085507482633875, guid: 5a8e017f15c390b42a3c689321d23254,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7414085507482633875, guid: 5a8e017f15c390b42a3c689321d23254,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.25
+      objectReference: {fileID: 0}
     - target: {fileID: 7414085507482633877, guid: 5a8e017f15c390b42a3c689321d23254,
         type: 3}
       propertyPath: m_RootOrder
