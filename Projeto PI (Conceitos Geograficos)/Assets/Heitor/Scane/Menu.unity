@@ -304,7 +304,7 @@ PrefabInstance:
     - target: {fileID: 3524103230851364882, guid: 84c8ced957af88c4dac0a0fb27331a80,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3524103230851364883, guid: 84c8ced957af88c4dac0a0fb27331a80,
         type: 3}
@@ -481,18 +481,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 6999961101017871384}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &167242778 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6999961101128374274, guid: 1f3c61187c820dd479eb5572c7deabd9,
-    type: 3}
-  m_PrefabInstance: {fileID: 6999961101017871384}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73af0193ba325594283cdaeaee0cdb56, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &343411191
 GameObject:
   m_ObjectHideFlags: 0
@@ -1926,16 +1914,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 167242778}
-        m_TargetAssemblyTypeName: LevelLoad, Assembly-CSharp
-        m_MethodName: LoadLevel
-        m_Mode: 3
+      - m_Target: {fileID: 998083417}
+        m_TargetAssemblyTypeName: trocacena, Assembly-CSharp
+        m_MethodName: Teleport
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 5
           m_FloatArgument: 0
-          m_StringArgument: mapa
+          m_StringArgument: Dialogo1
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1819912917}
@@ -2536,7 +2524,7 @@ PrefabInstance:
     - target: {fileID: 6999961101128374272, guid: 1f3c61187c820dd479eb5572c7deabd9,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6999961101128374273, guid: 1f3c61187c820dd479eb5572c7deabd9,
         type: 3}
