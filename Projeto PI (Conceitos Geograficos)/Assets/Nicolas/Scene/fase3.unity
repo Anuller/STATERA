@@ -10498,6 +10498,7 @@ GameObject:
   m_Component:
   - component: {fileID: 576968018}
   - component: {fileID: 576968019}
+  - component: {fileID: 576968020}
   m_Layer: 0
   m_Name: grama 1
   m_TagString: Untagged
@@ -10574,6 +10575,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &576968020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576968017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2870375815f2f1649ad900ae1f0a454e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ParallaxEffect: 0.7
 --- !u!1 &578530555
 GameObject:
   m_ObjectHideFlags: 0
@@ -13928,6 +13942,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1122133214}
   - component: {fileID: 1122133215}
+  - component: {fileID: 1122133216}
   m_Layer: 0
   m_Name: grama 2
   m_TagString: Untagged
@@ -14004,6 +14019,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1122133216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1122133213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2870375815f2f1649ad900ae1f0a454e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ParallaxEffect: 0.6
 --- !u!1 &1123420214
 GameObject:
   m_ObjectHideFlags: 0
@@ -16269,6 +16297,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1429428982}
   - component: {fileID: 1429428983}
+  - component: {fileID: 1429428984}
   m_Layer: 0
   m_Name: nuvem
   m_TagString: Untagged
@@ -16345,6 +16374,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1429428984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1429428981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2870375815f2f1649ad900ae1f0a454e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ParallaxEffect: 0.4
 --- !u!95 &1440448836 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 1798245723869040840, guid: 767a067761fa8e34ba1ebf917d467742,
@@ -22198,6 +22240,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1665991854}
   - component: {fileID: 1665991855}
+  - component: {fileID: 1665991856}
   m_Layer: 0
   m_Name: grama 3
   m_TagString: Untagged
@@ -22274,6 +22317,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1665991856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1665991853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2870375815f2f1649ad900ae1f0a454e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ParallaxEffect: 0.5
 --- !u!1 &1684878332
 GameObject:
   m_ObjectHideFlags: 0
@@ -28599,7 +28655,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1821357328}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.08, y: 2.57, z: 0}
+  m_LocalPosition: {x: -14.08, y: 2.66, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -28747,6 +28803,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1841878811}
   - component: {fileID: 1841878812}
+  - component: {fileID: 1841878813}
   m_Layer: 0
   m_Name: ceu
   m_TagString: Untagged
@@ -28823,6 +28880,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1841878813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841878810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2870375815f2f1649ad900ae1f0a454e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ParallaxEffect: 0
 --- !u!1 &1850998912
 GameObject:
   m_ObjectHideFlags: 0
