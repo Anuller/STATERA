@@ -18,12 +18,26 @@ public class enemy : MonoBehaviour
 
     public GameObject particula;
 
+    public AudioSource audioSound;
+
+    [Header("Audio")]
+    public AudioClip atk;
+    public AudioClip dead;
+
     // Start is called before the first frame update
     void Start()
     {
         currentHealth = vidaMaxima;
         barraVida.SetMaxHealth(vidaMaxima);
         rigidbody2 = GetComponent<Rigidbody2D>();   
+    }
+
+    public void TocaSom(AudioClip clip)
+    {
+        Debug.Log(dead);
+        
+        audioSound.clip = clip;
+        audioSound.Play();
     }
 
     public void TakeDamage(int damage)
@@ -37,6 +51,8 @@ public class enemy : MonoBehaviour
 
         if (currentHealth <= 0)
         {
+            //Debug.Log("fim");
+            TocaSom(dead);
             Die();
         }
 

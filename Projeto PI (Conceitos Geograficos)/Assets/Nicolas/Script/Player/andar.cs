@@ -53,6 +53,7 @@ public class andar : MonoBehaviour
     public AudioClip gemido;
     public AudioClip walk;
     public AudioClip atk;
+    public AudioClip dead;
 
 
     // Start is called before the first frame update
@@ -107,6 +108,7 @@ public class andar : MonoBehaviour
 
         if (currentHealth <= 0)
         {
+            TocaSom(dead);
             Die();
         }
 

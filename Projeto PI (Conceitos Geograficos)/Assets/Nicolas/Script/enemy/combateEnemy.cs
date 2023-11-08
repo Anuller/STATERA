@@ -6,6 +6,7 @@ public class combateEnemy : MonoBehaviour
 {
     [Header("Animator do attack do Inimigo")]
     public Animator enemy;
+    public enemy enemyScript;
 
     // Faz referencia ao ponto de attack
     [Header("Referencia do Ponto de attack")]
@@ -34,6 +35,8 @@ public class combateEnemy : MonoBehaviour
         {
             if (Input.GetButtonDown("Mouse X"))
             {
+                Debug.Log(enemyScript.dead);
+                enemyScript.TocaSom(enemyScript.atk);
                 Attack();
                 nextAttackTime = Time.time + 1f / attackRate;
             }
