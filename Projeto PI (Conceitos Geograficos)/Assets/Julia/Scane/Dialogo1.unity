@@ -304,10 +304,10 @@ MonoBehaviour:
   pages:
   - "O ser humano sempre encontra formas de burlar as regras. N\xE3o importa o que
     tenha que ser feito.\r\n"
-  - "A fauna e a flora est\xE3o destru\xEDdas.\r\n"
+  - "A fauna e a flora est\xE3o almadi\xE7oadas.\r\n"
   - "Os homens foram atr\xE1s de meios para amaldi\xE7oar as florestas, para usufruir
     de seus recursos mais tarde.\r\n"
-  - "A maldi\xE7\xE3o\u2026consome tudo.Espalhou-se rapidamente por todas as partes."
+  - Ela consome tudo.Espalhou-se rapidamente por todas as partes.
   - "Um grande poder o convoca para restaurar o equil\xEDbrio.\r\n"
 --- !u!1 &954641831
 GameObject:
