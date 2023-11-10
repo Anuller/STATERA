@@ -18,11 +18,11 @@ public class enemy : MonoBehaviour
 
     public GameObject particula;
 
-    public AudioSource audioSound;
+    //public AudioSource audioSound;
 
-    [Header("Audio")]
-    public AudioClip atk;
-    public AudioClip dead;
+    //[Header("Audio")]
+    //public AudioClip atk;
+    //public AudioClip dead;
 
     // Start is called before the first frame update
     void Start()
@@ -32,13 +32,13 @@ public class enemy : MonoBehaviour
         rigidbody2 = GetComponent<Rigidbody2D>();   
     }
 
-    public void TocaSom(AudioClip clip)
-    {
-        Debug.Log(dead);
+    //public void TocaSom(AudioClip clip)
+    //{
+        //Debug.Log(dead);
         
-        audioSound.clip = clip;
-        audioSound.Play();
-    }
+        //audioSound.clip = clip;
+        //audioSound.Play();
+    //}
 
     public void TakeDamage(int damage)
     {
@@ -52,7 +52,7 @@ public class enemy : MonoBehaviour
         if (currentHealth <= 0)
         {
             //Debug.Log("fim");
-            TocaSom(dead);
+            //TocaSom(dead);
             Die();
         }
 

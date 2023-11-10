@@ -35,8 +35,8 @@ public class combateEnemy : MonoBehaviour
         {
             if (Input.GetButtonDown("Mouse X"))
             {
-                Debug.Log(enemyScript.dead);
-                enemyScript.TocaSom(enemyScript.atk);
+                //Debug.Log(enemyScript.dead);
+                //enemyScript.TocaSom(enemyScript.atk);
                 Attack();
                 nextAttackTime = Time.time + 1f / attackRate;
             }
