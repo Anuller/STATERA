@@ -206,16 +206,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1580535865}
-        m_TargetAssemblyTypeName: LevelLoad, Assembly-CSharp
-        m_MethodName: LoadLevel
-        m_Mode: 3
+      - m_Target: {fileID: 241142855}
+        m_TargetAssemblyTypeName: trocacena, Assembly-CSharp
+        m_MethodName: Teleport
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 3
           m_FloatArgument: 0
-          m_StringArgument: game2
+          m_StringArgument: fase2
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1656910115}
@@ -1523,7 +1523,7 @@ PrefabInstance:
     - target: {fileID: 3524103230851364882, guid: 84c8ced957af88c4dac0a0fb27331a80,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3524103230851364883, guid: 84c8ced957af88c4dac0a0fb27331a80,
         type: 3}
@@ -2224,7 +2224,7 @@ PrefabInstance:
     - target: {fileID: 6999961101128374272, guid: 1f3c61187c820dd479eb5572c7deabd9,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6999961101128374273, guid: 1f3c61187c820dd479eb5572c7deabd9,
         type: 3}
@@ -2313,18 +2313,6 @@ PrefabInstance:
       objectReference: {fileID: 1836058353}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f3c61187c820dd479eb5572c7deabd9, type: 3}
---- !u!114 &1580535865 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6999961101128374274, guid: 1f3c61187c820dd479eb5572c7deabd9,
-    type: 3}
-  m_PrefabInstance: {fileID: 1580535864}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73af0193ba325594283cdaeaee0cdb56, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1656910114
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2483,16 +2471,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1580535865}
-        m_TargetAssemblyTypeName: LevelLoad, Assembly-CSharp
-        m_MethodName: LoadLevel
-        m_Mode: 3
+      - m_Target: {fileID: 241142855}
+        m_TargetAssemblyTypeName: trocacena, Assembly-CSharp
+        m_MethodName: Teleport
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 2
           m_FloatArgument: 0
-          m_StringArgument: game1
+          m_StringArgument: fase1
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1656910115}
@@ -2629,16 +2617,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1580535865}
-        m_TargetAssemblyTypeName: LevelLoad, Assembly-CSharp
-        m_MethodName: LoadLevel
-        m_Mode: 3
+      - m_Target: {fileID: 241142855}
+        m_TargetAssemblyTypeName: trocacena, Assembly-CSharp
+        m_MethodName: Teleport
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 4
           m_FloatArgument: 0
-          m_StringArgument: game3
+          m_StringArgument: fase3
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1656910115}

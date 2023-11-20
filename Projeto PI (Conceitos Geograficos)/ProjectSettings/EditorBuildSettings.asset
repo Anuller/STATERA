@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Heitor/Scane/Menu.unity
     guid: 60df3b4c8b0b68147b36991b3aa0a166
   - enabled: 1
+    path: Assets/Julia/Scane/Dialogo1.unity
+    guid: ecf721becc6ca424a80cbab222584069
+  - enabled: 1
     path: Assets/Heitor/Scane/mapa.unity
     guid: 6c8477c5d5b03af44a86dfc8c8828191
   - enabled: 1
@@ -20,9 +23,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Nicolas/Scene/fase3.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Julia/Scane/Dialogo1.unity
-    guid: ecf721becc6ca424a80cbab222584069
   - enabled: 1
     path: Assets/Heitor/Scane/Menu 1.unity
     guid: b88739cb74d6ab34284c69e394d9bca7

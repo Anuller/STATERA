@@ -288,10 +288,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 555638431}
     m_Modifications:
-    - target: {fileID: 1095205375, guid: 84c8ced957af88c4dac0a0fb27331a80, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1095205379, guid: 84c8ced957af88c4dac0a0fb27331a80, type: 3}
       propertyPath: m_Camera
       value: 
@@ -300,11 +296,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LevelLoader
-      objectReference: {fileID: 0}
-    - target: {fileID: 3524103230851364882, guid: 84c8ced957af88c4dac0a0fb27331a80,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3524103230851364883, guid: 84c8ced957af88c4dac0a0fb27331a80,
         type: 3}
@@ -361,37 +352,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3524103230851364884, guid: 84c8ced957af88c4dac0a0fb27331a80,
-        type: 3}
-      propertyPath: transition
-      value: 
-      objectReference: {fileID: 118958445}
-    - target: {fileID: 3524103230851364884, guid: 84c8ced957af88c4dac0a0fb27331a80,
-        type: 3}
-      propertyPath: trasnsitionTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3524103231948087704, guid: 84c8ced957af88c4dac0a0fb27331a80,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3524103231948087707, guid: 84c8ced957af88c4dac0a0fb27331a80,
-        type: 3}
-      propertyPath: m_ScreenMatchMode
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 84c8ced957af88c4dac0a0fb27331a80, type: 3}
 --- !u!4 &118958444 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3524103230851364883, guid: 84c8ced957af88c4dac0a0fb27331a80,
-    type: 3}
-  m_PrefabInstance: {fileID: 118958443}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &118958445 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 3524103231948087709, guid: 84c8ced957af88c4dac0a0fb27331a80,
     type: 3}
   m_PrefabInstance: {fileID: 118958443}
   m_PrefabAsset: {fileID: 0}
