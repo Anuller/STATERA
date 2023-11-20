@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Heitor/Scane/Menu 1.unity
     guid: b88739cb74d6ab34284c69e394d9bca7
+  - enabled: 1
+    path: Assets/Heitor/Scane/mapa 1.unity
+    guid: 7b1d1423205304c49b9531bd40d9b90b
   m_configObjects: {}

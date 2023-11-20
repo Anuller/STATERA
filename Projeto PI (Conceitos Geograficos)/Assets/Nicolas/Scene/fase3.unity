@@ -2569,6 +2569,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1877922267}
+    - target: {fileID: 8083856316777466852, guid: 4cb6d44f929091c479cb9463803b08cb,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: mapa 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8083856316927799409, guid: 4cb6d44f929091c479cb9463803b08cb,
         type: 3}
       propertyPath: m_Camera
@@ -14556,7 +14561,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1141882038}
-  m_LocalRotation: {x: -0.07437623, y: 0.000000005701246, z: 4.252149e-10, w: 0.9972303}
+  m_LocalRotation: {x: -0.07437623, y: -0.00000000428968, z: -3.1993638e-10, w: 0.9972303}
   m_LocalPosition: {x: -13.46, y: -1.8800001, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -28826,8 +28831,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1774386029}
-  m_LocalRotation: {x: -0.0000000074505797, y: 0.000000001399503, z: 2.0992541e-10,
-    w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
