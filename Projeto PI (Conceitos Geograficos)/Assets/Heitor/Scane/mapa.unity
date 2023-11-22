@@ -231,16 +231,16 @@ MonoBehaviour:
           m_StringArgument: fase2
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1841411453}
-        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
-        m_MethodName: AumentarNiveis
-        m_Mode: 1
+      - m_Target: {fileID: 1841411455}
+        m_TargetAssemblyTypeName: faseNivel, Assembly-CSharp
+        m_MethodName: Liberar
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: fase2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &4328390
@@ -1836,6 +1836,11 @@ PrefabInstance:
       propertyPath: m_PixelPerfect
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8103509600124057292, guid: cf04aaf1faef9c64b806156535ed1a3d,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 26
+      objectReference: {fileID: 0}
     - target: {fileID: 8103509600124057295, guid: cf04aaf1faef9c64b806156535ed1a3d,
         type: 3}
       propertyPath: m_Pivot.x
@@ -2338,16 +2343,16 @@ MonoBehaviour:
           m_StringArgument: fase1
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1841411453}
-        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
-        m_MethodName: AumentarNiveis
-        m_Mode: 1
+      - m_Target: {fileID: 1841411455}
+        m_TargetAssemblyTypeName: faseNivel, Assembly-CSharp
+        m_MethodName: Liberar
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: fase1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1703523066
@@ -2496,16 +2501,16 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1841411453}
-        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
-        m_MethodName: AumentarNiveis
-        m_Mode: 1
+      - m_Target: {fileID: 1841411455}
+        m_TargetAssemblyTypeName: faseNivel, Assembly-CSharp
+        m_MethodName: Liberar
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: fase3
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1767883198
@@ -5088,6 +5093,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1841411454}
   - component: {fileID: 1841411453}
+  - component: {fileID: 1841411455}
   m_Layer: 0
   m_Name: Controlador
   m_TagString: Untagged
@@ -5127,6 +5133,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1841411455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841411452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4b440567286abc449a3e6b90eef1cb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1850449840
 PrefabInstance:
   m_ObjectHideFlags: 0
