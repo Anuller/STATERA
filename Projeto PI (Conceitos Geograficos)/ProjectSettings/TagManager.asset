@@ -9,6 +9,7 @@ TagManager:
   - Win
   - espinho
   - maldicion
+  - plataforma
   layers:
   - Default
   - TransparentFX
