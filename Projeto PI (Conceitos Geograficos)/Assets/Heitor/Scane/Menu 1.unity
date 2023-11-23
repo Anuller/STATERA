@@ -868,6 +868,7 @@ GameObject:
   - component: {fileID: 831740041}
   - component: {fileID: 831740040}
   - component: {fileID: 831740042}
+  - component: {fileID: 831740043}
   m_Layer: 5
   m_Name: Titulo
   m_TagString: Untagged
@@ -952,6 +953,26 @@ MonoBehaviour:
   m_EffectColor: {r: 0.5337467, g: 0, b: 1, a: 1}
   m_EffectDistance: {x: 6, y: -3}
   m_UseGraphicAlpha: 1
+--- !u!95 &831740043
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 831740038}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 870bd468c48f0d74b873d8c53192ff79, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &998083416
 GameObject:
   m_ObjectHideFlags: 0
@@ -1417,6 +1438,7 @@ GameObject:
   - component: {fileID: 1417679930}
   - component: {fileID: 1417679929}
   - component: {fileID: 1417679932}
+  - component: {fileID: 1417679933}
   m_Layer: 5
   m_Name: Sair
   m_TagString: Untagged
@@ -1648,6 +1670,26 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &1417679933
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1417679927}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0b6cd065a034d1341aceb079dcc51460, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1570698720
 GameObject:
   m_ObjectHideFlags: 0
@@ -1660,6 +1702,7 @@ GameObject:
   - component: {fileID: 1570698724}
   - component: {fileID: 1570698723}
   - component: {fileID: 1570698722}
+  - component: {fileID: 1570698725}
   m_Layer: 5
   m_Name: Creditos
   m_TagString: Untagged
@@ -1807,6 +1850,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1570698720}
   m_CullTransparentMesh: 1
+--- !u!95 &1570698725
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570698720}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 130106098d98d5b448042085bd4d6a41, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1665361842
 GameObject:
   m_ObjectHideFlags: 0
@@ -2031,6 +2094,7 @@ GameObject:
   - component: {fileID: 1819912914}
   - component: {fileID: 1819912913}
   - component: {fileID: 1819912917}
+  - component: {fileID: 1819912918}
   m_Layer: 5
   m_Name: Play
   m_TagString: Untagged
@@ -2274,6 +2338,26 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &1819912918
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819912912}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7007ea42618895041a729131f0d22bdd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1970688499
 GameObject:
   m_ObjectHideFlags: 0
