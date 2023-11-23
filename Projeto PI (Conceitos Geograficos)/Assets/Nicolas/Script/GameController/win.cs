@@ -7,6 +7,7 @@ using UnityEngine.UIElements;
 public class win : MonoBehaviour
 {
     public GameObject final;
+    public GameObject Dialog;
     private void Start()
     {
         Time.timeScale = 1.0f;
@@ -21,6 +22,10 @@ public class win : MonoBehaviour
             Time.timeScale = 0f;
             //liga a tela, variavel gameobject que ira ativa aqui
 
+        }
+        if (collision.tag == "Dialog")
+        {
+            Dialog.SetActive(true);
         }
     }
 }

@@ -10,6 +10,7 @@ TagManager:
   - espinho
   - maldicion
   - plataforma
+  - Dialog
   layers:
   - Default
   - TransparentFX
