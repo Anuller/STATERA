@@ -44,7 +44,11 @@ public class LevelManager : MonoBehaviour
         {
             PlayerPrefs.SetInt("niveisDesbloqueados", desbloquearNiveis);
         }
+        
 
     }
-
+    public void Clear()
+    {
+        PlayerPrefs.DeleteAll();
+    }
 }
