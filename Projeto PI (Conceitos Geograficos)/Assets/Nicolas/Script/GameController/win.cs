@@ -26,6 +26,12 @@ public class win : MonoBehaviour
         if (collision.tag == "Dialog")
         {
             Dialog.SetActive(true);
+            //Time.timeScale = 0f;
         }
+        if(collision.tag == "aff")
+        {
+            Dialog.SetActive(false);
+        }
+        
     }
 }
