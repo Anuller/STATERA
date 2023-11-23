@@ -8,6 +8,7 @@ public class win : MonoBehaviour
 {
     public GameObject final;
     public GameObject Dialog;
+    public Npc alog;
     private void Start()
     {
         Time.timeScale = 1.0f;
@@ -25,12 +26,8 @@ public class win : MonoBehaviour
         }
         if (collision.tag == "Dialog")
         {
-            Dialog.SetActive(true);
-            //Time.timeScale = 0f;
-        }
-        if(collision.tag == "aff")
-        {
-            Dialog.SetActive(false);
+            alog.enabled = true;
+
         }
         
     }
