@@ -2299,12 +2299,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 379098119, guid: 4cb6d44f929091c479cb9463803b08cb, type: 3}
       propertyPath: m_Text
-      value: "Clima: Do tipo subtropical.\n\nVegeta\xE7\xE3o: Do tipo campestre (gram\xEDneas,
-        herb\xE1ceas e algumas \xE1rvores).\n\nRelevo: Do tipo Plan\xEDcie Costeira.\nEssas
-        plan\xEDcies desenvolvem grandes rebanhos.\n\nA principal atividade econ\xF4mica
-        praticada nesse bioma \xE9 a pecu\xE1ria extensiva(cria\xE7\xE3o de bois
-        e ovelhas).\n\nE como produ\xE7\xE3o agr\xEDcola \xE9 o plantio de soja,
-        arroz, milho,\_trigo\_e\_uva."
+      value: "Clima: Subtropical.\n\nVegeta\xE7\xE3o: Campestre (gram\xEDneas, herb\xE1ceas
+        e algumas \xE1rvores).\n\nRelevo: Plan\xEDcie Costeira.\nEssas plan\xEDcies
+        desenvolvem grandes rebanhos.\n\nA principal atividade econ\xF4mica praticada
+        nesse bioma \xE9 a pecu\xE1ria extensiva (cria\xE7\xE3o de bois e ovelhas).\n\nE
+        como produ\xE7\xE3o agr\xEDcola \xE9 o plantio de soja, arroz, milho,\_trigo\_e\_uva."
       objectReference: {fileID: 0}
     - target: {fileID: 379098119, guid: 4cb6d44f929091c479cb9463803b08cb, type: 3}
       propertyPath: m_FontData.m_FontSize
@@ -14369,7 +14368,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1141882038}
-  m_LocalRotation: {x: -0.07437623, y: -0.00000000428968, z: -3.1993638e-10, w: 0.9972303}
+  m_LocalRotation: {x: -0.07437623, y: 0.00000000428968, z: 3.1993638e-10, w: 0.9972303}
   m_LocalPosition: {x: -12.7, y: -1.2, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
