@@ -197,6 +197,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1893465256}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &44823292 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1798245723703841846, guid: 767a067761fa8e34ba1ebf917d467742,
+    type: 3}
+  m_PrefabInstance: {fileID: 1798245722488820108}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &60418926 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1798245722786878105, guid: 767a067761fa8e34ba1ebf917d467742,
@@ -2543,6 +2549,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_EffectColor.a
       value: 0.3882353
+      objectReference: {fileID: 0}
+    - target: {fileID: 8083856315728912404, guid: 4cb6d44f929091c479cb9463803b08cb,
+        type: 3}
+      propertyPath: m_Text
+      value: "Parabens voc\xEA terminou a Fase 3"
       objectReference: {fileID: 0}
     - target: {fileID: 8083856315774127956, guid: 4cb6d44f929091c479cb9463803b08cb,
         type: 3}
@@ -14358,7 +14369,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1141882038}
-  m_LocalRotation: {x: -0.07437623, y: -0.0000000042896797, z: -3.1993636e-10, w: 0.9972303}
+  m_LocalRotation: {x: -0.07437623, y: -0.00000000428968, z: -3.1993638e-10, w: 0.9972303}
   m_LocalPosition: {x: -12.7, y: -1.2, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -64224,6 +64235,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1.0005271}
   m_EdgeRadius: 0
+--- !u!114 &1798245722488820114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1798245722488820110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6622e12c206f4624ca7dbee131a4baf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectmaldicion: {fileID: 44823292}
 --- !u!1001 &2557675742559926516
 PrefabInstance:
   m_ObjectHideFlags: 0
